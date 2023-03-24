@@ -1,0 +1,114 @@
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px;
+    color: white;
+}
+.menu {
+    background-color: orange;
+    position: sticky;
+    padding: 12px 20px;
+    border-radius: 8px;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+}
+.parent {
+    margin-top: 50px;
+    background-color: rgb(167, 167, 160);
+    border-radius: 8px;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.child {
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+.child-1 {
+    background-color: #d44e00;
+    
+}
+.child-2 {
+    background: #d40000;
+    top: 20px;
+    right: 20px;
+}
+.child-3 {
+    background: #369400;
+    bottom: 40px;
+    right: 40px;
+}
+.child-4 {
+    background: #2a00d4;
+    bottom: 60px;
+    left: 60px;
+}
+.content {
+    background-color: #0065bc;
+    color: white;
+    margin-top: 30px;
+    padding: 80px 50px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.content .inner-content {
+    position: relative;
+    z-index: 1;
+}
+.content::first-line {
+    text-transform: uppercase;
+}
+.content::first-letter {
+    font-size: 50px;
+}
+.content::before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #0000002d;
+}
+.content::after {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: #0000002d;
+}
+.phone {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.phone a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background: #147a00;
+    border-radius: 50%;
+    z-index: 9999;
+}

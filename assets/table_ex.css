@@ -1,0 +1,16 @@
+thead{
+    background-color: rgb(17, 162, 114);
+    color: white;
+    font-size: medium;
+}
+.table_1{
+    font-family: 'Roboto', sans-serif;
+    width: 20%;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 10px;
+}
+td{
+    border-bottom: 1px solid rgba(182, 180, 180, 0.863);
+}
